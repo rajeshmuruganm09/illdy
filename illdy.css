@@ -1,0 +1,464 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.menu {
+  /*background-image: url(../img/bed-bedroom-door-girl.jpg);*/
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../img/bed-bedroom-door-girl.jpg');
+
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50px;
+  /*requires explicit height*/
+}
+
+.button {
+  margin: 20px;
+  border: none;
+
+}
+
+.lm {
+  background-color: rgba(0, 0, 0, 0.466);
+  color: white;
+  padding: 10px 50px;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.do {
+  background-color: #f1d204;
+  color: white;
+  padding: 10px 50px;
+  margin: 10px;
+  border: 2px solid #f1d204;
+}
+
+.about>h2 {
+  padding-bottom: 20px;
+}
+
+.progress {
+  height: .3rem !important;
+  border-radius: 20px;
+  overflow: visible;
+  line-height: 15px;
+  margin: 20px 0 40px 0;
+  display: flex;
+  width: 33%;
+  margin-right: 20px;
+}
+
+.progress .progress-bar {
+  position: relative;
+  border-radius: 20px;
+  overflow: visible;
+  display: flex;
+  width: 33%;
+
+}
+
+.progress .progress-value {
+  position: absolute;
+  color: white;
+  margin-bottom: 74px;
+  right: 0;
+  padding: 10px 15px;
+  margin-right: -27px;
+}
+
+.valueone {
+  background-color: #f18b6d !important;
+}
+
+.valueone::after {
+  border-top: 10px solid #f18b6d !important;
+
+}
+
+.valuetwo {
+  background-color: #f1d204 !important;
+}
+
+.valuetwo::after {
+  border-top: 10px solid #f1d204 !important;
+
+}
+
+.valuethird {
+  background-color: #6a4d8a !important;
+}
+
+.valuethird::after {
+  border-top: 10px solid #6a4d8a !important;
+
+}
+
+.progress-value::after {
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -6px;
+  left: 25%;
+}
+
+.barone {
+  background-color: #f18b6d !important;
+}
+
+.barthird {
+  background-color: #6a4d8a !important;
+}
+
+.rightcon {
+  overflow: visible;
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridimg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imggrid {
+  display: flex;
+  flex: 25%;
+  justify-content: stretch;
+}
+
+.slideimg {
+  background-image: linear-gradient(rgba(207, 66, 172, 0.6), rgba(230, 49, 175, 0.6)),
+    url('../img/hills.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonials {
+  padding: 50px;
+}
+
+.testimonials h2,
+.mike,
+image,
+.slidepara,
+.slideava {
+  padding: 20px;
+
+}
+
+.slideava {
+  border-radius: 100%;
+  width: 30%;
+}
+
+.slidepara {
+  background-color: #663399;
+  position: relative;
+  font-size: 12pt;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px 100px;
+
+}
+
+
+.slidepara::after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  bottom: -25px;
+  left: 50%;
+  background-color: #663399;
+  clip-path: polygon(0 0, 100% 0, 50% 60%);
+}
+
+.dot {
+  height: 20px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotactive {
+  background-color: transparent;
+  border: 2px solid white;
+
+}
+
+.sersection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.webdesign {
+  width: 33%;
+  padding: 30px 20px;
+}
+
+.lastnews {
+  background-color: #222f36;
+}
+
+.news {
+  padding: 60px;
+}
+
+.newsbtn {
+  border: none;
+  padding: 5px 30px;
+  color: white;
+}
+
+.cardsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 28%;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.cardhead {
+  padding: 0 !important;
+}
+
+.card-body>h1,
+.cardpara,
+a {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.rmbtn::before {
+  content: ">";
+  background-color: yellow;
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.num {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.numbers {
+  background-image: linear-gradient(rgba(255, 230, 6, 0.61), rgba(255, 230, 6, 0.897)),
+    url('../img/hills.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.teammum {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mumone {
+  display: inline-flex;
+  width: 33%;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+
+.detail {
+  margin-left: 20px;
+}
+
+.siconsone>.fa {
+  width: 33px;
+  height: 36px;
+  text-decoration: none;
+  color: #ff9966;
+  border: 1px solid #ff9966;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+}
+
+.siconstwo>.fa {
+  width: 33px;
+  height: 36px;
+  text-decoration: none;
+  color: #ffcc00;
+  border: 1px solid #ffcc00;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+}
+
+.siconsthird>.fa {
+  width: 33px;
+  height: 36px;
+  text-decoration: none;
+  color: #666699;
+  border: 1px solid #666699;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+}
+
+.addressss {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.address {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.address>.firstaddress,
+.secondaddress {
+  padding: 0 20px;
+}
+
+.addressicon>.fa {
+  width: 20px;
+  height: 36px;
+  text-decoration: none;
+  color: #8c9597;
+  margin-top: 10px;
+  padding: 0 20px;
+
+}
+
+.sumbitbtn {
+  border: none !important;
+  margin-left: auto !important;
+  display: flex !important;
+}
+
+.fott {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.list {
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.list>li {
+  padding: 10px 0;
+}
+
+.list li::before {
+  content: "> ";
+}
+
+
+.navbar-toggler {
+
+  background-color: white !important;
+}
+
+@media (max-width: 576px) {
+
+  .imggrid {
+
+    flex: 100% !important;
+  }
+
+  .webdesign {
+    flex: 100%;
+  }
+
+  .mumone {
+    flex: 100% !important;
+  }
+
+  .teammum {
+    flex: 100% !important;
+
+  }
+
+  .address {
+    flex: 100% !important;
+  }
+
+  .fott {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .card{
+    width: 100%;
+
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .fott {
+
+    width: 100%;
+  }
+  
+  .card{
+    width: 100%;
+
+  }
+  
+  }
+
+  @media (max-width: 992px) {
+
+    .imggrid {
+      flex: 50%;
+    }
+
+  }
